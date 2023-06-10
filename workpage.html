@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Experiences pro - CV ALEXIS DEZEQUE</title>
+    <link rel="stylesheet" href="workpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,900;1,200;1,300;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba83dfa81b.js" crossorigin="anonymous"></script>
+  </head>
 
+  <body>
+    <section class="header">
+        <nav>
+          <a href="mainpage.html"><img src="img/logo.jpg" alt=""></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="HideMenu()"></i>
+            <ul>
+              <li><a href="mainpage.html">PRESENTATION</a></li>
+              <li><a href="workpage.html">ÉXPERIENCES PROFESSIONNELLES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="https://www.linkedin.com/in/alexis-dezeque-935446175/"><i class="fa-brands fa-linkedin fa-lg" style="color:whitesmoke;"></i></a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="ShowMenu()"></i>
+        </nav>
+      <div class="text-box">
+        <h1>Expériences Professionnelles</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  
+        <a href="" class="hero-btn">Cliquez ici pour connaitres mes compétences</a>
+      </div>
+      </section>
+      <section class="container">
+        <div class="card">
+          <div class="card-image car-1"></div>
+            <h2>1er Vendeur Paul</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="">EN SAVOIR PLUS</a>
+          </div>
+          <div class="card">
+            <div class="card-image car-2"></div>
+              <h2>Employé polyvalent Big Fernand</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <a href="">EN SAVOIR PLUS</a>
+            </div>
+            <div class="card">
+              <div class="card-image car-3"></div>
+                <h2>Vendeur Hubside Store</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <a href="">EN SAVOIR PLUS</a>
+              </div>
+              <div class="card">
+                <div class="card-image car-4"></div>
+                  <h2>Employé libre service</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <a href="">EN SAVOIR PLUS</a>
+                </div>
+      </section>
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function ShowMenu(){
+          navLinks.style.right = "-20px"
+        }
+        function HideMenu(){
+          navLinks.style.right = "-300px"
+        }
+      </script>
+  </body>
