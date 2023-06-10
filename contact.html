@@ -1,1 +1,92 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contactez moi </title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <script src="https://kit.fontawesome.com/ba83dfa81b.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <section class="header">
+        <nav>
+          <a href="mainpage.html"><img src="img/logo.jpg" alt=""></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="HideMenu()"></i>
+            <ul>
+              <li><a href="mainpage.html">PRESENTATION</a></li>
+              <li><a href="workpage.html">ÉXPERIENCES PROFESSIONNELLES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="https://www.linkedin.com/in/alexis-dezeque-935446175/"><i class="fa-brands fa-linkedin fa-lg" style="color:whitesmoke;"></i></a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="ShowMenu()"></i>
+        </nav>
+      <div class="text-box">
+        <h1>UNE ENVIE DE ME CONTACTER ?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  
+        <a href="mainpage.html" class="hero-btn">Cliquez ici pour connaitres mes compétences</a>
+      </div>
+      </section>
+<section class="contact">
+    <div class="content">
+        <h2>Contactez moi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aperiam dolor, magnam culpa quidem placeat iure impedit tempore qui explicabo officiis harum ipsam, ratione molestias itaque inventore laudantium ducimus vitae!</p>
+    </div>
+    <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-location-dot fa-lg" style="color: #ff0000;"></i></div>
+                <div class="text">
+                    <h3>Adresse</h3>
+                    <p>35 Rue Jacques Becq <br>59320<br>Hallenes-Lez-Haubourdin</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-mobile fa-lg" style="color: #56b5f0;"></i></div>
+                <div class="text">
+                    <h3>Numéro de téléphone</h3>
+                    <p>+33 6 21 85 41 28</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-at fa-lg" style="color: #5fdbdd;"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>alexis.dezeque@outlook.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <h2>Votre message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Nom</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Ecrivez votre message...</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name=""  value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu(){
+      navLinks.style.right = "-20px"
+    }
+    function HideMenu(){
+      navLinks.style.right = "-300px"
+    }
+  </script>
+</body>
+</html>
